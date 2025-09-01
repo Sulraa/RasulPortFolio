@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="8" fill="#0a0a0a"/>
+  
+  <!-- Gradient Border -->
+  <rect x="1" y="1" width="30" height="30" rx="7" stroke="url(#gradient)" stroke-width="2" fill="none"/>
+  
+  <!-- Letter "R" -->
+  <path d="M9 7 L9 25 M9 7 L17 7 Q21 7 21 11 Q21 15 17 15 L9 15 M17 15 L21 25" 
+        stroke="#00ff88" 
+        stroke-width="2.2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Code Brackets -->
+  <path d="M6 12 L4 14 L6 16" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M26 12 L28 14 L26 16" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

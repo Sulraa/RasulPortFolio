@@ -1,0 +1,33 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="#0a0a0a"/>
+  
+  <!-- Gradient Border -->
+  <rect x="8" y="8" width="164" height="164" rx="32" stroke="url(#gradient)" stroke-width="8" fill="none"/>
+  
+  <!-- Main Letter "R" -->
+  <path d="M50 40 L50 140 M50 40 L100 40 Q130 40 130 70 Q130 100 100 100 L50 100 M100 100 L130 140" 
+        stroke="#00ff88" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Code Brackets -->
+  <path d="M30 70 L20 90 L30 110" stroke="#00d4ff" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M150 70 L160 90 L150 110" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="140" cy="50" r="6" fill="#00ff88"/>
+  <circle cx="40" cy="130" r="4" fill="#00d4ff"/>
+  <circle cx="140" cy="130" r="4" fill="#8b5cf6"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
